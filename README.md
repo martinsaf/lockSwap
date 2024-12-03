@@ -13,7 +13,9 @@ A Python-based system for securely transferring files between a client and serve
 - Run the server:
   ```bash
   python server.py
-- Prepera a file (file_to_send.txt) in the client directory.
+- Prepera a file (`file_to_send.txt`) in the client directory.
 - Run the client to send the file:
   ```bash
   python client.py
+
+The server saves the decrypted file as `received_file`.
