@@ -19,3 +19,7 @@ A Python-based system for securely transferring files between a client and serve
   python client.py
 
 The server saves the decrypted file as `received_file`.
+
+## Additional Files
+- `secret.key`: Automatically generated encryption key, stored securely on the server.
+- `received_encryption_file`: The encrypted version of the file received by the server before decryption.
