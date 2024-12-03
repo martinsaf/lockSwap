@@ -9,7 +9,7 @@ A Python-based system for securely transferring files between a client and serve
   ```bash
   pip install cryptography
 
-##Usage
+## Usage
 - Run the server:
   ```bash
   python server.py
